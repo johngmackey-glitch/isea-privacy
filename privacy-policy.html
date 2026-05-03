@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iSea – Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+      padding: 0 16px;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 64px 0 80px;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+
+    .app-badge span {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      color: #111827;
+    }
+
+    p { margin-bottom: 14px; color: #374151; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 8px 0 14px 20px;
+      color: #374151;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    a { color: #0284c7; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .card {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-top: 40px;
+    }
+
+    .card p { margin-bottom: 4px; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 48px 0 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="app-badge">
+      <span>🌊 iSea</span>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: May 3, 2025 &nbsp;·&nbsp; Developed by John Mackey</p>
+
+    <p>
+      iSea ("the app", "we", "us") is an iOS app for identifying and exploring marine life.
+      This policy explains what information we collect, how we use it, and your choices.
+      We keep data collection to what is necessary to run the service.
+    </p>
+
+    <!-- 1 -->
+    <h2>1. Information You Provide</h2>
+    <p>When you create an account or use the app, you may provide:</p>
+    <ul>
+      <li><strong>Account information</strong> — your display name, email address, and profile photo, collected when you sign in with Apple, Google, or email and password.</li>
+      <li><strong>Profile details</strong> — an optional location string and bio you can add to your public profile.</li>
+      <li><strong>Photos</strong> — images you take or choose from your library to identify marine species. These are uploaded to our servers for AI processing and may be shared publicly if you post them to the community feed.</li>
+      <li><strong>Community content</strong> — posts, comments, and reactions you create in the app.</li>
+      <li><strong>Feedback</strong> — messages you send through the in-app feedback form, along with your email and account ID.</li>
+    </ul>
+
+    <!-- 2 -->
+    <h2>2. Information Collected Automatically</h2>
+    <ul>
+      <li><strong>Location</strong> — approximate location (±100 m) when you choose to attach it to an identification, to improve species matching by region. Location is never collected in the background.</li>
+      <li><strong>Device push token</strong> — a Firebase Cloud Messaging token used to deliver notifications you opt into. This is stored in your account record.</li>
+      <li><strong>App usage signals</strong> — local counters (stored only on your device) for session count and daily identification use, used solely to decide when to ask for an App Store review. These are never transmitted to our servers.</li>
+    </ul>
+    <p>
+      <strong>We do not use analytics SDKs.</strong> Firebase Analytics is disabled in iSea.
+      We do not serve ads or share data with advertising networks.
+    </p>
+
+    <!-- 3 -->
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>Authenticate you and manage your account.</li>
+      <li>Run the AI species identification service by passing your photo (and optional location/caption) to a Firebase Cloud Function that processes the image.</li>
+      <li>Display your posts, comments, and profile to other users in the community feed.</li>
+      <li>Send push notifications you have enabled (trial reminders, community activity).</li>
+      <li>Respond to feedback you submit.</li>
+      <li>Enforce community guidelines and investigate reported content.</li>
+    </ul>
+
+    <!-- 4 -->
+    <h2>4. Third-Party Services</h2>
+    <p>iSea uses the following third-party services, each governed by their own privacy policy:</p>
+    <ul>
+      <li><strong>Firebase (Google)</strong> — authentication, database (Firestore), file storage, cloud functions, and push notifications. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy</a></li>
+      <li><strong>Google Sign-In</strong> — optional sign-in method. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+      <li><strong>Apple Sign-In / StoreKit</strong> — optional sign-in and in-app subscription management handled entirely by Apple. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></li>
+    </ul>
+    <p>We do not sell your data to any third party.</p>
+
+    <!-- 5 -->
+    <h2>5. Subscriptions &amp; Payments</h2>
+    <p>
+      iSea offers monthly and annual subscriptions through Apple's App Store.
+      All billing is handled by Apple — we never see or store your payment card information.
+      We record your subscription status (active, trial, expired) in your account to unlock premium features.
+    </p>
+
+    <!-- 6 -->
+    <h2>6. Data Retention</h2>
+    <ul>
+      <li>Your account and associated content are retained while your account exists.</li>
+      <li>Identification images are stored in Firebase Storage and retained until you delete the associated post or your account.</li>
+      <li>Identification history is stored locally on your device (up to 50 records) and is deleted when you uninstall the app.</li>
+      <li>You can delete your account at any time from <strong>Settings → Account → Delete Account</strong>. This permanently removes your profile, posts, and associated data from our servers.</li>
+    </ul>
+
+    <!-- 7 -->
+    <h2>7. Children's Privacy</h2>
+    <p>
+      iSea is not directed at children under 13.
+      We do not knowingly collect personal information from children under 13.
+      If you believe a child has provided us personal information, please contact us and we will delete it promptly.
+    </p>
+
+    <!-- 8 -->
+    <h2>8. Your Rights</h2>
+    <p>You can:</p>
+    <ul>
+      <li>Access and update your profile information within the app at any time.</li>
+      <li>Delete your account and all associated data from Settings.</li>
+      <li>Opt out of push notifications in iOS Settings → Notifications → iSea.</li>
+      <li>Revoke location permission in iOS Settings → Privacy &amp; Security → Location Services → iSea.</li>
+    </ul>
+    <p>
+      If you are in the EU/EEA or California and have additional rights under GDPR or CCPA,
+      please contact us at the address below and we will respond within 30 days.
+    </p>
+
+    <!-- 9 -->
+    <h2>9. Security</h2>
+    <p>
+      Data is transmitted over HTTPS and stored in Firebase infrastructure protected by Google's security controls.
+      Authentication tokens are handled using industry-standard practices (signed nonces, secure token storage).
+      No system is completely secure — please use a strong password and keep your device updated.
+    </p>
+
+    <!-- 10 -->
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      If we make material changes, we will update the effective date at the top of this page.
+      Continued use of the app after changes constitutes acceptance of the updated policy.
+    </p>
+
+    <!-- Contact -->
+    <div class="card">
+      <h2 style="margin-top:0;">Contact</h2>
+      <p>Questions or requests about your data:</p>
+      <p><a href="mailto:iseamarineid@gmail.com">iseamarineid@gmail.com</a></p>
+    </div>
+
+    <hr />
+    <p class="footer">© 2025 John Mackey. All rights reserved.</p>
+
+  </div>
+</body>
+</html>
